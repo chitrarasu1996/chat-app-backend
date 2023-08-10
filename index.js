@@ -26,7 +26,7 @@ app.get("/",(req,res)=>{
   })
   const io=socket(server,{
     cors:{
-      origin:"https://main--brilliant-dango-e9df63.netlify.app",
+      origin:"https://chattify-app.netlify.app",
       credentials: true,
      
     }
