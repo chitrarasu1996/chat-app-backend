@@ -26,7 +26,7 @@ app.get("/",(req,res)=>{
   })
   const io=socket(server,{
     cors:{
-      origin:"http://localhost:3000",
+      origin:"https://main--brilliant-dango-e9df63.netlify.app",
       credentials: true,
      
     }
